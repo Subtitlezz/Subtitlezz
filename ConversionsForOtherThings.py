@@ -22,6 +22,7 @@ if ask_conversion_type == '2' or ask_conversion_type == 'geometry':
     if ask_for_geo =='1' or ask_for_geo =='area':
         area = float(input("Enter a area of circle: "))
         print(2 * 3.1416 * area, 'is the circumference of a circle')
+        
     elif ask_for_geo =='2' or ask_for_geo =='circumference':
         circumference = float(input("Enter a circumference of circle: "))
         print(3.1416 ** circumference, 'is the radius of circle')
